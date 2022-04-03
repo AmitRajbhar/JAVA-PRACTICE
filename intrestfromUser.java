@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/*    Take name, roll number and field of interest from user and print in the format below :
+Hey, my name is xyz and my roll number is xyz. My field of interest are xyz.   */
+
+
+
 public class intrestfromUser {
     public static void main(String[] args)
     {
@@ -11,9 +16,8 @@ public class intrestfromUser {
         int rollnumber=s.nextInt();
 
         System.out.println("Enter Field of Intrest: ");
-        String intrest= s.next();
-        //String intrest=s.nextLine();
+        String field=s.nextLine();
         
-        System.out.println("Hey, my name is "+name+" and my roll number is "+rollnumber+". My field of interest are "+intrest+".");
+        System.out.println("Hey, my name is "+name+" and my roll number is "+rollnumber+". My field of interest are "+field+".");
     }    
 }
