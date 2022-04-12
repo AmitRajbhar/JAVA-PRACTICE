@@ -1,5 +1,8 @@
 import javax.sound.sampled.SourceDataLine;
 
+//Write a program to print numbers from 1 to 10.
+
+
 public class Number_Print {
     public static void main(String[] args)
     {
