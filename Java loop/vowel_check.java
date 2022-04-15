@@ -43,8 +43,6 @@ public class vowel_check {
             System.out.println("It is a Consonant");
             break;
         }
-
-
     }
     
 }
