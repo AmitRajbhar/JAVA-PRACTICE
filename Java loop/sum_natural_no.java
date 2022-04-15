@@ -1,3 +1,6 @@
+
+//  Write a program to calculate the sum of first 10 natural number.
+
 public class sum_natural_no {
     public static void main(String[] args)
     {
